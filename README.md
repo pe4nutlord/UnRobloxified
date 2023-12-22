@@ -59,4 +59,4 @@ This project is licensed under the [MIT License](LICENSE.txt).
 
 ---
 
-"Where every corner gets a curve!" - peanut <3
+"Where every corner doesn't get a curve!" - peanut <3
