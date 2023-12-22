@@ -33,7 +33,7 @@ Robloxify is a browser extension that enhances the Roblox experience by introduc
 
 ## Installation
 
-1. Download the extension files from the [Releases](https://github.com/pe4nutlord/robloxify/releases) page.
+1. Download the extension files from the [Releases](https://github.com/pe4nutlord/unrobloxified/releases) page.
 2. Unzip the downloaded file.
 3. Open Chrome and go to `chrome://extensions/`.
 4. Enable "Developer mode" in the top right.
@@ -47,7 +47,7 @@ Once the extension is installed, you can configure and activate/deactivate featu
 
 ## Contributing
 
-If you have suggestions, improvements, or want to report issues, feel free to open an [issue](https://github.com/pe4nutlord/robloxify/issues) or submit a pull request.
+If you have suggestions, improvements, or want to report issues, feel free to open an [issue](https://github.com/pe4nutlord/unrobloxified/issues) or submit a pull request.
 
 ## Credits
 
