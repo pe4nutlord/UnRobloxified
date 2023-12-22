@@ -1,0 +1,51 @@
+{
+   "manifest_version": 3,
+   "name": "UnRobloxified - UnRoundifying Roblox",
+   "version": "2.1.4",
+   "description": "where every corner doesn't get a curve! - peanut",
+   "author": "pe4nutlord",
+   "permissions": ["storage", "activeTab"],
+   "action": {
+     "default_title": "UnRobloxified"
+   },
+   "background": {
+     "service_worker": "js/robloxify.js"
+   },
+   "content_scripts": [
+     {
+       "all_frames": true,
+       "js": [
+         "js/library/jquery3.6.0.js",
+         "js/robloxify.js",
+         "js/pages.js",
+         "js/pages/assets.js",
+         "js/pages/avatar.js",
+         "js/pages/catalog.js",
+         "js/pages/discover.js",
+         "js/pages/games.js",
+         "js/pages/groups.js",
+         "js/pages/home.js",
+         "js/pages/profile.js",
+         "js/pages/settings.js",
+         "js/pages/universal.js",
+         "js/util.js"
+       ],
+       "matches": ["*://*.roblox.com/*"],
+       "run_at": "document_start"
+     }
+   ],
+   "host_permissions": ["*://*.roblox.com/*"],
+   "icons": {
+     "128": "resources/icons/logo/128/glow.png",
+     "256": "resources/icons/logo/256/glow.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAghiUzkKG+NhnRDAWucSTyHMpmlFO6fSYPo8/xgIekt4zmPYS4iL695zdJv5audDafR5RGG/jM+mAqsOn8wIp9hcmZtoErlppfqfen/3yS6j6AtYLpAH4qIhgRmwZjDjAaFEYMsztgNBfdCNR9BqXFNWnFsV7C47NhLDOTzqqm1eZdZtaH6Df3IHOEYP2NbWV/LyERvQeMDLyVTmLLmaS4BbCXrP565bFx7RLZHyLYtryoNZB8UCWqNkX4XmbRfAbKe82DWQhF9NwmwSpnNEZMi8YxYEN22cvKYXztwpNkX8mVa8anuAZegQVnFd+PfQhsq+BhP64P19/xR9pUjFIiwIDAQAB",
+   "minimum_chrome_version": "90",
+   "web_accessible_resources": [
+     {
+       "matches": ["*://*.roblox.com/*"],
+       "resources": ["css/*", "resources/*"]
+     }
+   ]
+ }
+ 

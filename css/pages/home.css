@@ -1,0 +1,9 @@
+.robloxify-home-avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.robloxify-home-avatar a {
+    margin-right: 15px;
+}
