@@ -1,8 +1,10 @@
-# Robloxify Extension
+# UnRobloxified Extension
 
 Robloxify is a browser extension that enhances the Roblox experience by introducing a variety of features to customize and improve your interaction with the platform.
 
 ## Features
+
+## NO ROUNDED CORNERS
 
 ### Home Page Enhancements
 - **Grouped Home Page:** Organizes the home page by grouping "Continue Playing," "Friends Playing," and "Favorites" while the rest are grouped into "Recommended."
