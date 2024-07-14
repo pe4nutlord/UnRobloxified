@@ -1,3 +1,5 @@
+I'm lazy so chatgpt wrote the following :
+
 # UnRobloxified Extension
 
 Robloxify is a browser extension that enhances the Roblox experience by introducing a variety of features to customize and improve your interaction with the platform.
